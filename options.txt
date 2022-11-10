@@ -1,0 +1,5 @@
+true
+Manual
+None
+0
+TRUE
