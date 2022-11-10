@@ -3,7 +3,7 @@
 # @description  collects data from categories on website.
 # @author       Ciaran Byrne
 
-
+# test comment
 import bs4
 from numpy import signedinteger
 import requests
@@ -77,7 +77,7 @@ class Scrape:
                 get_href = card["href"]
                 href_list.append(get_href) # getting all the card links
             self.hrefs(href_list, main_dir)
-
+            
     def hrefs(self, href_list, main_dir):
         print("hrefs function called")
         # print(href_list)
